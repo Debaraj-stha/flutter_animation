@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animation/animatedcontainer.dart';
 import 'package:flutter_animation/coloranimation.dart';
 import 'package:flutter_animation/horizontalScrollAnimation.dart';
+import 'package:flutter_animation/lottieanimation.dart';
 import 'package:flutter_animation/pages/HeroAnimations.dart';
 import 'package:flutter_animation/pages/animatedAuthScreen.dart';
 import 'package:flutter_animation/pages/animatedListview.dart';
@@ -12,7 +13,9 @@ import 'package:flutter_animation/pages/textAnimation.dart';
 import 'package:flutter_animation/pages/transform.dart';
 import 'package:flutter_animation/pages/tweenSequence.dart';
 import 'package:flutter_animation/translate.dart';
+import 'package:flutter_animation/typingindicator.dart';
 
+import 'clipper/clippedWidget.dart';
 import 'pages/animation.dart';
 import 'pages/heroanimation.dart';
 
@@ -32,7 +35,7 @@ class myApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: AnimatedContainerExample(),
+      home: clippedWidget(),
     );
   }
 }
