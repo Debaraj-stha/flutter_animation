@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animation/animatedLoader.dart';
+import 'package:flutter_animation/animatedLoaders.dart';
 import 'package:flutter_animation/animatedcontainer.dart';
 import 'package:flutter_animation/animationwithbounceEffect.dart';
 import 'package:flutter_animation/coloranimation.dart';
@@ -39,7 +41,7 @@ class myApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: AnimationWithBounce(),
+      home: AnimatedLoader(),
     );
   }
 }
