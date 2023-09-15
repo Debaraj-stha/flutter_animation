@@ -16,7 +16,9 @@ import 'package:flutter_animation/pages/scaleAnimation.dart';
 import 'package:flutter_animation/pages/textAnimation.dart';
 import 'package:flutter_animation/pages/transform.dart';
 import 'package:flutter_animation/pages/tweenSequence.dart';
+import 'package:flutter_animation/prompt.dart';
 import 'package:flutter_animation/rippleAnimation.dart';
+import 'package:flutter_animation/stackCard.dart';
 import 'package:flutter_animation/translate.dart';
 import 'package:flutter_animation/typingindicator.dart';
 
@@ -41,7 +43,7 @@ class myApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: AnimatedLoader(),
+      home: Prompt(),
     );
   }
 }
