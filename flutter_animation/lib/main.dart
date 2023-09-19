@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/prompt.dart';
+import 'package:flutter_animation/animatedOpacityLoader.dart';
+
 
 
 void main() async {
@@ -18,7 +19,7 @@ class myApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: Prompt(),
+      home: AnimatedOpacityLoader(),
     );
   }
 }
