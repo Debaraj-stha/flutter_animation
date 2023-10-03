@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animation/animatedOpacityLoader.dart';
+import 'package:flutter_animation/clipper/clippers.dart';
+import 'package:flutter_animation/custompaints/custompaints.dart';
+import 'package:flutter_animation/pages/scrollAnimation.dart';
+
+import 'file/file.dart';
 
 
 
@@ -19,7 +24,7 @@ class myApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: AnimatedOpacityLoader(),
+      home: ScrollAnimation(),
     );
   }
 }
